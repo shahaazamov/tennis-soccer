@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: aqua;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./tennis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select:none;
+}
+.container{
+    width:100%;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.card{
+    width:400px;
+    border:1px solid #fff;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+.img-section{
+    width:400px;
+    height: 100px;
+    
+}
+.players{
+    color:#fff;
+    font-weight: 900;
+    font-size: 50px; 
+}
+.btn{
+    font-size: 15px;
+    border:none;
+    background:transparent;
+    margin-top: 25px;
+    cursor: pointer;
+    color:#fff;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.btn:hover{
+    display: inline-block;
+    padding:10px;
+    font-size: 25px;
+    color:aqua;
+    background:rgba(255,255,255,0.9);
+    border:transparent rgba(255,255,255,0.3);
+    border-radius: 3px;
+}
+.levelChange{
+    pointer-events: none;
+}
+.options{
+    font-size: 15px; 
+    border:none; 
+    background:transparent; 
+    margin-top: 25px; 
+    cursor: pointer; 
+    color:#000; 
+    margin-left: 20px; 
+}
